@@ -1,0 +1,45 @@
+.post {
+	border: 2px solid purple;
+	margin: 1em;
+	padding: 1em;
+	border-radius: 1em;
+}
+
+.post__form {
+	margin: 0;
+}
+
+.post__message {
+	width: 100%;
+	height: 5em;
+	margin-bottom: 0.5em;
+	font-size: 1.3em;
+	white-space: pre-wrap;
+	border: 0;
+	border-bottom: 1px solid lightgrey;
+}
+
+.post__message:focus {
+	outline: 0;
+}
+
+.post__actions {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.button {
+	padding: 0.7em 1em;
+	font-size: 1em;
+	color: white;
+	background: purple;
+	border: 2px solid purple;
+	border-radius: 100vh;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: white;
+    color: purple;
+    border: 2px solid purple;
+}
